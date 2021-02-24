@@ -1,7 +1,9 @@
+//List view
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>table1</title>
+	<title>List view</title>
 	<style>
 		body
 
