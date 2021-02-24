@@ -33,7 +33,7 @@
 			<tr>
 				<td><?php echo $row->firstname;?></td>
 				<td><?php echo $row->lastname;?></td>
-				<td><?php echo $row->username;?></td>
+				<td><?php echo $row->uname;?></td>
 				<td><?php echo $row->password;?></td>
 				<td><?php echo $row->mobile;?></td>
 				<td><?php echo $row->email;?></td>
