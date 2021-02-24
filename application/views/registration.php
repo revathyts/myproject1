@@ -1,7 +1,9 @@
+//registration form
+
 <! DOCTYPE html>
 <html>
 <head>
-<title>  registeration </title>
+<title>  Registeration Form </title>
 <style>
 h1{
     color:red;
