@@ -34,8 +34,8 @@ table{
 <body>
 	<form method="post" action="<?php echo base_url()?>main/new_login">
 				<table>
-				 <tr><td>Email</td>
-					<td><input type="text" name="username"></td></tr>
+				 <tr><td>Username</td>
+					<td><input type="text" name="uname"></td></tr>
 					<tr><td>Password</td>
 					<td><input type="text" name="password"></td></tr>
 					<tr><td><input class="btn" type="submit" value="Login" name="submit"></td></tr>
