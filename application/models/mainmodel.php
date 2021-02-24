@@ -1,14 +1,18 @@
+//model page
+
 <?php
 /**
  *
  */
 class mainmodel extends CI_model
 {
-
+//password encryption
 public function encpswd($pass)
 {
 return password_hash($pass, PASSWORD_BCRYPT);
 }
+	
+//inserting to database
 public function regist($a,$b)
 {
 $this->db->insert("emp_table",$b);
@@ -18,6 +22,8 @@ $this->db->insert("regtable",$a);
 
 
 }
+	
+	//List view
 public function view_table()
 {
 $this->db->select('*');
@@ -25,6 +31,7 @@ $this->db->join('emp_table','emp_table.id=regtable.loginid','inner');
 $n=$this->db->get("regtable");
 return $n;
 }
+//approve/reject
 public function approve($id)
 {
 $this->db->set('status','1');
@@ -40,6 +47,7 @@ $qry=$this->db->update("emp_table",$b);
 return $qry;
 
 }
+	//Login
 public function slctpass($unm,$pass)
 {
 $this->db->select('password');
