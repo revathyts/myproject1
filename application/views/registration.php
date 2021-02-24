@@ -43,7 +43,7 @@ h1{
   <td><input type="text" name="lname"placeholder="Last Name"></td></tr>
 <tr>
   <td>Username</td>
-  <td><input type="text" name="uname"placeholder="Username"></td></tr>
+  <td><input type="text" name="uname"placeholder="uname"></td></tr>
  <tr>
   <td>Password</td>
   <td><input type="password" name="password"placeholder="password"></td></tr>
